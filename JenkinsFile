@@ -3,14 +3,14 @@ pipeline {
 
     tools {
         maven 'Maven3'
-        jdk 'Java17'
+        jdk 'jdk-21'
     }
 
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main',
-                    url: 'https://github.com/your-repo/project.git'
+                git branch: 'master',
+                    url: 'https://github.com/akashErrorSlayer/Capstone_Saucedemo_Javaselenium.git'
             }
         }
 
