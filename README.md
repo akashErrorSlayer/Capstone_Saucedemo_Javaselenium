@@ -1,5 +1,5 @@
 # SauceDemo Selenium TestNG Framework
-#As therepository sbows HTML as the main laguage because there are many reports in the project which is in HTML so that's why it's considering as a main laguage but does not affect anything
+#As the repository shows HTML as the main laguage because there are many reports in the project which is in HTML so that's why it's considering as a main laguage but does not affect anything
 
 Ready-to-run Selenium + TestNG framework with **ExtentReports** and **screenshots** for each test.
 
