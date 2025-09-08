@@ -1,0 +1,5 @@
+com\example\runners\TestRunner.class
+com\example\tests\CartTests.class
+com\example\tests\CheckoutTests.class
+com\example\stepDefinitions\InventorySteps.class
+com\example\tests\LoginTests.class
