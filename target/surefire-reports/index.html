@@ -163,17 +163,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.example.runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add first item to cart should increase cart badge&quot;, &quot;Inventory Page&quot;)">runScenario("Add first item to cart should increase cart badge", "Inventory Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-SauceDemo_Suite" title="com.example.runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify inventory page title&quot;, &quot;Inventory Page&quot;)">runScenario("Verify inventory page title", "Inventory Page")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-SauceDemo_Suite" title="com.example.runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Cart badge should not appear when no items added&quot;, &quot;Inventory Page&quot;)">runScenario("Cart badge should not appear when no items added", "Inventory Page")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.example.runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add first item to cart should increase cart badge&quot;, &quot;Inventory Page&quot;)">runScenario("Add first item to cart should increase cart badge", "Inventory Page")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -280,6 +280,16 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="runScenario(&quot;Add first item to cart should increase cart badge&quot;, &quot;Inventory Page&quot;)">
+                  </a> <!-- runScenario("Add first item to cart should increase cart badge", "Inventory Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add first item to cart should increase cart badge","Inventory Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="runScenario(&quot;Verify inventory page title&quot;, &quot;Inventory Page&quot;)">
                   </a> <!-- runScenario("Verify inventory page title", "Inventory Page") -->
                   <span class="method-name">runScenario</span>
@@ -294,16 +304,6 @@
                   </a> <!-- runScenario("Cart badge should not appear when no items added", "Inventory Page") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("Cart badge should not appear when no items added","Inventory Page")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Add first item to cart should increase cart badge&quot;, &quot;Inventory Page&quot;)">
-                  </a> <!-- runScenario("Add first item to cart should increase cart badge", "Inventory Page") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Add first item to cart should increase cart badge","Inventory Page")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -421,69 +421,69 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(16);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'runScenario')
-data.setCell(0, 2, 'com.example.runners.TestRunner')
-data.setCell(0, 3, 54359);
+data.setCell(0, 1, 'cartShouldPersistAfterNavigation')
+data.setCell(0, 2, 'com.example.tests.CartTests')
+data.setCell(0, 3, 24260);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'com.example.runners.TestRunner')
-data.setCell(1, 3, 3746);
+data.setCell(1, 3, 5494);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'runScenario')
 data.setCell(2, 2, 'com.example.runners.TestRunner')
-data.setCell(2, 3, 3475);
+data.setCell(2, 3, 5016);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'checkout_missingLastName_shouldShowError')
-data.setCell(3, 2, 'com.example.tests.CheckoutTests')
-data.setCell(3, 3, 2057);
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'com.example.runners.TestRunner')
+data.setCell(3, 3, 4996);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'removeItemFromCart_shouldDecreaseCartCount')
-data.setCell(4, 2, 'com.example.tests.CartTests')
-data.setCell(4, 3, 2051);
+data.setCell(4, 1, 'checkout_shouldCompleteOrder')
+data.setCell(4, 2, 'com.example.tests.CheckoutTests')
+data.setCell(4, 3, 3986);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'invalidPassword_shouldShowError')
+data.setCell(5, 1, 'blankCredentials_shouldShowError')
 data.setCell(5, 2, 'com.example.tests.LoginTests')
-data.setCell(5, 3, 1818);
+data.setCell(5, 3, 2664);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'checkout_missingPostalCode_shouldShowError')
-data.setCell(6, 2, 'com.example.tests.CheckoutTests')
-data.setCell(6, 3, 1432);
+data.setCell(6, 1, 'testValidLoginNavigatesToInventoryPage')
+data.setCell(6, 2, 'com.example.tests.LoginTests')
+data.setCell(6, 3, 2359);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'checkout_shouldCompleteOrder')
-data.setCell(7, 2, 'com.example.tests.CheckoutTests')
-data.setCell(7, 3, 1428);
+data.setCell(7, 1, 'blankPassword')
+data.setCell(7, 2, 'com.example.tests.LoginTests')
+data.setCell(7, 3, 2081);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'checkout_missingFirstName_shouldShowError')
-data.setCell(8, 2, 'com.example.tests.CheckoutTests')
-data.setCell(8, 3, 1293);
+data.setCell(8, 1, 'invalidLogin_shouldShowError')
+data.setCell(8, 2, 'com.example.tests.LoginTests')
+data.setCell(8, 3, 1959);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'addItemToCart_shouldIncreaseCartCount')
-data.setCell(9, 2, 'com.example.tests.CartTests')
-data.setCell(9, 3, 1226);
+data.setCell(9, 1, 'checkout_missingLastName_shouldShowError')
+data.setCell(9, 2, 'com.example.tests.CheckoutTests')
+data.setCell(9, 3, 1772);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'cartShouldPersistAfterNavigation')
-data.setCell(10, 2, 'com.example.tests.CartTests')
-data.setCell(10, 3, 1195);
+data.setCell(10, 1, 'checkout_missingFirstName_shouldShowError')
+data.setCell(10, 2, 'com.example.tests.CheckoutTests')
+data.setCell(10, 3, 1580);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'addMultipleItems_shouldAppearInCart')
-data.setCell(11, 2, 'com.example.tests.CartTests')
-data.setCell(11, 3, 825);
+data.setCell(11, 1, 'checkout_missingPostalCode_shouldShowError')
+data.setCell(11, 2, 'com.example.tests.CheckoutTests')
+data.setCell(11, 3, 1457);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'invalidLogin_shouldShowError')
-data.setCell(12, 2, 'com.example.tests.LoginTests')
-data.setCell(12, 3, 709);
+data.setCell(12, 1, 'removeItemFromCart_shouldDecreaseCartCount')
+data.setCell(12, 2, 'com.example.tests.CartTests')
+data.setCell(12, 3, 1200);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'testValidLoginNavigatesToInventoryPage')
-data.setCell(13, 2, 'com.example.tests.LoginTests')
-data.setCell(13, 3, 621);
+data.setCell(13, 1, 'addMultipleItems_shouldAppearInCart')
+data.setCell(13, 2, 'com.example.tests.CartTests')
+data.setCell(13, 3, 1087);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'blankCredentials_shouldShowError')
-data.setCell(14, 2, 'com.example.tests.LoginTests')
-data.setCell(14, 3, 451);
+data.setCell(14, 1, 'addItemToCart_shouldIncreaseCartCount')
+data.setCell(14, 2, 'com.example.tests.CartTests')
+data.setCell(14, 3, 1003);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'blankPassword')
+data.setCell(15, 1, 'invalidPassword_shouldShowError')
 data.setCell(15, 2, 'com.example.tests.LoginTests')
-data.setCell(15, 3, 446);
+data.setCell(15, 3, 901);
 window.suiteTableData['SauceDemo_Suite']= { tableData: data, tableDiv: 'times-div-SauceDemo_Suite'}
 return data;
 }
@@ -521,184 +521,184 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testValidLoginNavigatesToInventoryPage</span>
-                <span class="method-start">10124 ms</span>
+                <span class="method-start">3520 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">11110 ms</span>
+                <span class="method-start">6133 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">11333 ms</span>
+                <span class="method-start">6480 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">invalidLogin_shouldShowError</span>
-                <span class="method-start">13985 ms</span>
+                <span class="method-start">8360 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">14846 ms</span>
+                <span class="method-start">10458 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">15048 ms</span>
+                <span class="method-start">10613 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">invalidPassword_shouldShowError</span>
-                <span class="method-start">16438 ms</span>
+                <span class="method-start">38099 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">18424 ms</span>
+                <span class="method-start">39219 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">18610 ms</span>
+                <span class="method-start">39430 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">blankCredentials_shouldShowError</span>
-                <span class="method-start">21212 ms</span>
+                <span class="method-start">41291 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">21802 ms</span>
+                <span class="method-start">44141 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">21947 ms</span>
+                <span class="method-start">44359 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">blankPassword</span>
-                <span class="method-start">24461 ms</span>
+                <span class="method-start">46172 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">25021 ms</span>
+                <span class="method-start">48408 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.example.tests.CartTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">25164 ms</span>
+                <span class="method-start">48607 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addItemToCart_shouldIncreaseCartCount</span>
-                <span class="method-start">27614 ms</span>
+                <span class="method-start">51679 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">28971 ms</span>
+                <span class="method-start">52851 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">29138 ms</span>
+                <span class="method-start">53059 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addMultipleItems_shouldAppearInCart</span>
-                <span class="method-start">31664 ms</span>
+                <span class="method-start">56388 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">32629 ms</span>
+                <span class="method-start">57660 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">32764 ms</span>
+                <span class="method-start">57862 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">cartShouldPersistAfterNavigation</span>
-                <span class="method-start">35181 ms</span>
+                <span class="method-start">59609 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">36516 ms</span>
+                <span class="method-start">84118 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">36705 ms</span>
+                <span class="method-start">84415 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">removeItemFromCart_shouldDecreaseCartCount</span>
-                <span class="method-start">38058 ms</span>
+                <span class="method-start">87662 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">40245 ms</span>
+                <span class="method-start">89010 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.example.tests.CheckoutTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">40396 ms</span>
+                <span class="method-start">89226 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkout_shouldCompleteOrder</span>
-                <span class="method-start">43280 ms</span>
+                <span class="method-start">91232 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">44849 ms</span>
+                <span class="method-start">95489 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">44990 ms</span>
+                <span class="method-start">95660 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkout_missingFirstName_shouldShowError</span>
-                <span class="method-start">48009 ms</span>
+                <span class="method-start">99671 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">49429 ms</span>
+                <span class="method-start">101419 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">49637 ms</span>
+                <span class="method-start">101707 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkout_missingLastName_shouldShowError</span>
-                <span class="method-start">52224 ms</span>
+                <span class="method-start">105777 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">54445 ms</span>
+                <span class="method-start">107792 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">56175 ms</span>
+                <span class="method-start">107978 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkout_missingPostalCode_shouldShowError</span>
-                <span class="method-start">59664 ms</span>
+                <span class="method-start">111121 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">61240 ms</span>
+                <span class="method-start">112761 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.example.runners.TestRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@4e933cf1)</span>
-                <span class="method-start">61487 ms</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@c1386b4)</span>
+                <span class="method-start">113168 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">runScenario("Verify inventory page title", "Inventory Page")</span>
-                <span class="method-start">63043 ms</span>
+                <span class="method-start">114886 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Add first item to cart should increase cart badge", "Inventory Page")</span>
-                <span class="method-start">117405 ms</span>
+                <span class="method-start">119913 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Cart badge should not appear when no items added", "Inventory Page")</span>
-                <span class="method-start">121153 ms</span>
+                <span class="method-start">124911 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">124632 ms</span>
+                <span class="method-start">130411 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
