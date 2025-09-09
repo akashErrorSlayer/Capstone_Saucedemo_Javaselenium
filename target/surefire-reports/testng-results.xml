@@ -2,190 +2,190 @@
 <testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-09T10:15:57 IST" name="SauceDemo Suite" finished-at="2025-09-09T10:17:37 IST" duration-ms="99975">
+  <suite started-at="2025-09-09T11:16:57 IST" name="SauceDemo Suite" finished-at="2025-09-09T11:18:07 IST" duration-ms="70024">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.runners.TestRunner@23348b5d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.runners.TestRunner@2df3b89c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-09-09T10:15:57 IST" name="Regression" finished-at="2025-09-09T10:17:25 IST" duration-ms="88026">
+    <test started-at="2025-09-09T11:16:57 IST" name="Regression" finished-at="2025-09-09T11:17:55 IST" duration-ms="58116">
       <class name="com.example.tests.LoginTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.LoginTests@747ddf94]" started-at="2025-09-09T10:15:57 IST" name="setUp" finished-at="2025-09-09T10:16:00 IST" duration-ms="3278" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.LoginTests@2f9f7dcf]" started-at="2025-09-09T11:16:57 IST" name="setUp" finished-at="2025-09-09T11:17:02 IST" duration-ms="5435" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testValidLoginNavigatesToInventoryPage()[pri:1, instance:com.example.tests.LoginTests@747ddf94]" started-at="2025-09-09T10:16:00 IST" name="testValidLoginNavigatesToInventoryPage" finished-at="2025-09-09T10:16:02 IST" duration-ms="1620" status="PASS">
+        <test-method signature="testValidLoginNavigatesToInventoryPage()[pri:1, instance:com.example.tests.LoginTests@2f9f7dcf]" started-at="2025-09-09T11:17:02 IST" name="testValidLoginNavigatesToInventoryPage" finished-at="2025-09-09T11:17:03 IST" duration-ms="644" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidLoginNavigatesToInventoryPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.LoginTests@747ddf94]" started-at="2025-09-09T10:16:02 IST" name="tearDown" finished-at="2025-09-09T10:16:02 IST" duration-ms="214" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.LoginTests@2f9f7dcf]" started-at="2025-09-09T11:17:03 IST" name="tearDown" finished-at="2025-09-09T11:17:04 IST" duration-ms="269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.LoginTests@747ddf94]" started-at="2025-09-09T10:16:02 IST" name="setUp" finished-at="2025-09-09T10:16:05 IST" duration-ms="2714" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.LoginTests@2f9f7dcf]" started-at="2025-09-09T11:17:04 IST" name="setUp" finished-at="2025-09-09T11:17:05 IST" duration-ms="1700" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="invalidLogin_shouldShowError()[pri:2, instance:com.example.tests.LoginTests@747ddf94]" started-at="2025-09-09T10:16:05 IST" name="invalidLogin_shouldShowError" finished-at="2025-09-09T10:16:05 IST" duration-ms="339" status="PASS">
+        <test-method signature="invalidLogin_shouldShowError()[pri:2, instance:com.example.tests.LoginTests@2f9f7dcf]" started-at="2025-09-09T11:17:05 IST" name="invalidLogin_shouldShowError" finished-at="2025-09-09T11:17:07 IST" duration-ms="1813" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLogin_shouldShowError -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.LoginTests@747ddf94]" started-at="2025-09-09T10:16:05 IST" name="tearDown" finished-at="2025-09-09T10:16:05 IST" duration-ms="125" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.LoginTests@2f9f7dcf]" started-at="2025-09-09T11:17:07 IST" name="tearDown" finished-at="2025-09-09T11:17:07 IST" duration-ms="176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.LoginTests@747ddf94]" started-at="2025-09-09T10:16:05 IST" name="setUp" finished-at="2025-09-09T10:16:07 IST" duration-ms="1295" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.LoginTests@2f9f7dcf]" started-at="2025-09-09T11:17:07 IST" name="setUp" finished-at="2025-09-09T11:17:10 IST" duration-ms="3002" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="invalidPassword_shouldShowError()[pri:3, instance:com.example.tests.LoginTests@747ddf94]" started-at="2025-09-09T10:16:07 IST" name="invalidPassword_shouldShowError" finished-at="2025-09-09T10:16:08 IST" duration-ms="1716" status="PASS">
+        <test-method signature="invalidPassword_shouldShowError()[pri:3, instance:com.example.tests.LoginTests@2f9f7dcf]" started-at="2025-09-09T11:17:10 IST" name="invalidPassword_shouldShowError" finished-at="2025-09-09T11:17:11 IST" duration-ms="495" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidPassword_shouldShowError -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.LoginTests@747ddf94]" started-at="2025-09-09T10:16:08 IST" name="tearDown" finished-at="2025-09-09T10:16:08 IST" duration-ms="111" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.LoginTests@2f9f7dcf]" started-at="2025-09-09T11:17:11 IST" name="tearDown" finished-at="2025-09-09T11:17:11 IST" duration-ms="177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.LoginTests@747ddf94]" started-at="2025-09-09T10:16:08 IST" name="setUp" finished-at="2025-09-09T10:16:10 IST" duration-ms="1292" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.LoginTests@2f9f7dcf]" started-at="2025-09-09T11:17:11 IST" name="setUp" finished-at="2025-09-09T11:17:14 IST" duration-ms="2905" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="blankCredentials_shouldShowError()[pri:4, instance:com.example.tests.LoginTests@747ddf94]" started-at="2025-09-09T10:16:10 IST" name="blankCredentials_shouldShowError" finished-at="2025-09-09T10:16:11 IST" duration-ms="1599" status="PASS">
+        <test-method signature="blankCredentials_shouldShowError()[pri:4, instance:com.example.tests.LoginTests@2f9f7dcf]" started-at="2025-09-09T11:17:14 IST" name="blankCredentials_shouldShowError" finished-at="2025-09-09T11:17:14 IST" duration-ms="428" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- blankCredentials_shouldShowError -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.LoginTests@747ddf94]" started-at="2025-09-09T10:16:11 IST" name="tearDown" finished-at="2025-09-09T10:16:12 IST" duration-ms="99" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.LoginTests@2f9f7dcf]" started-at="2025-09-09T11:17:15 IST" name="tearDown" finished-at="2025-09-09T11:17:15 IST" duration-ms="171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.LoginTests@747ddf94]" started-at="2025-09-09T10:16:12 IST" name="setUp" finished-at="2025-09-09T10:16:13 IST" duration-ms="1320" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.LoginTests@2f9f7dcf]" started-at="2025-09-09T11:17:15 IST" name="setUp" finished-at="2025-09-09T11:17:18 IST" duration-ms="2767" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="blankPassword()[pri:5, instance:com.example.tests.LoginTests@747ddf94]" started-at="2025-09-09T10:16:13 IST" name="blankPassword" finished-at="2025-09-09T10:16:15 IST" duration-ms="1698" status="PASS">
+        <test-method signature="blankPassword()[pri:5, instance:com.example.tests.LoginTests@2f9f7dcf]" started-at="2025-09-09T11:17:18 IST" name="blankPassword" finished-at="2025-09-09T11:17:18 IST" duration-ms="406" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- blankPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.LoginTests@747ddf94]" started-at="2025-09-09T10:16:15 IST" name="tearDown" finished-at="2025-09-09T10:16:15 IST" duration-ms="128" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.LoginTests@2f9f7dcf]" started-at="2025-09-09T11:17:18 IST" name="tearDown" finished-at="2025-09-09T11:17:18 IST" duration-ms="127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.example.tests.LoginTests -->
       <class name="com.example.tests.CartTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.CartTests@3270d194]" started-at="2025-09-09T10:16:15 IST" name="setUp" finished-at="2025-09-09T10:16:17 IST" duration-ms="2629" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.CartTests@55182842]" started-at="2025-09-09T11:17:18 IST" name="setUp" finished-at="2025-09-09T11:17:21 IST" duration-ms="2820" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addItemToCart_shouldIncreaseCartCount()[pri:0, instance:com.example.tests.CartTests@3270d194]" started-at="2025-09-09T10:16:17 IST" name="addItemToCart_shouldIncreaseCartCount" finished-at="2025-09-09T10:16:18 IST" duration-ms="522" status="PASS">
+        <test-method signature="addItemToCart_shouldIncreaseCartCount()[pri:0, instance:com.example.tests.CartTests@55182842]" started-at="2025-09-09T11:17:21 IST" name="addItemToCart_shouldIncreaseCartCount" finished-at="2025-09-09T11:17:22 IST" duration-ms="734" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addItemToCart_shouldIncreaseCartCount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CartTests@3270d194]" started-at="2025-09-09T10:16:18 IST" name="tearDown" finished-at="2025-09-09T10:16:18 IST" duration-ms="123" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CartTests@55182842]" started-at="2025-09-09T11:17:22 IST" name="tearDown" finished-at="2025-09-09T11:17:22 IST" duration-ms="137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.CartTests@3270d194]" started-at="2025-09-09T10:16:18 IST" name="setUp" finished-at="2025-09-09T10:16:21 IST" duration-ms="2722" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.CartTests@55182842]" started-at="2025-09-09T11:17:22 IST" name="setUp" finished-at="2025-09-09T11:17:25 IST" duration-ms="3297" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addMultipleItems_shouldAppearInCart()[pri:0, instance:com.example.tests.CartTests@3270d194]" started-at="2025-09-09T10:16:21 IST" name="addMultipleItems_shouldAppearInCart" finished-at="2025-09-09T10:16:22 IST" duration-ms="675" status="PASS">
+        <test-method signature="addMultipleItems_shouldAppearInCart()[pri:0, instance:com.example.tests.CartTests@55182842]" started-at="2025-09-09T11:17:25 IST" name="addMultipleItems_shouldAppearInCart" finished-at="2025-09-09T11:17:26 IST" duration-ms="832" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addMultipleItems_shouldAppearInCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CartTests@3270d194]" started-at="2025-09-09T10:16:22 IST" name="tearDown" finished-at="2025-09-09T10:16:22 IST" duration-ms="116" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CartTests@55182842]" started-at="2025-09-09T11:17:26 IST" name="tearDown" finished-at="2025-09-09T11:17:26 IST" duration-ms="159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.CartTests@3270d194]" started-at="2025-09-09T10:16:22 IST" name="setUp" finished-at="2025-09-09T10:16:25 IST" duration-ms="2966" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.CartTests@55182842]" started-at="2025-09-09T11:17:26 IST" name="setUp" finished-at="2025-09-09T11:17:28 IST" duration-ms="1575" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="cartShouldPersistAfterNavigation()[pri:0, instance:com.example.tests.CartTests@3270d194]" started-at="2025-09-09T10:16:25 IST" name="cartShouldPersistAfterNavigation" finished-at="2025-09-09T10:16:26 IST" duration-ms="969" status="PASS">
+        <test-method signature="cartShouldPersistAfterNavigation()[pri:0, instance:com.example.tests.CartTests@55182842]" started-at="2025-09-09T11:17:28 IST" name="cartShouldPersistAfterNavigation" finished-at="2025-09-09T11:17:30 IST" duration-ms="2411" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cartShouldPersistAfterNavigation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CartTests@3270d194]" started-at="2025-09-09T10:16:26 IST" name="tearDown" finished-at="2025-09-09T10:16:26 IST" duration-ms="127" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CartTests@55182842]" started-at="2025-09-09T11:17:31 IST" name="tearDown" finished-at="2025-09-09T11:17:31 IST" duration-ms="162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.CartTests@3270d194]" started-at="2025-09-09T10:16:26 IST" name="setUp" finished-at="2025-09-09T10:16:29 IST" duration-ms="2577" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.CartTests@55182842]" started-at="2025-09-09T11:17:31 IST" name="setUp" finished-at="2025-09-09T11:17:32 IST" duration-ms="1604" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="removeItemFromCart_shouldDecreaseCartCount()[pri:0, instance:com.example.tests.CartTests@3270d194]" started-at="2025-09-09T10:16:29 IST" name="removeItemFromCart_shouldDecreaseCartCount" finished-at="2025-09-09T10:16:29 IST" duration-ms="618" status="PASS">
+        <test-method signature="removeItemFromCart_shouldDecreaseCartCount()[pri:0, instance:com.example.tests.CartTests@55182842]" started-at="2025-09-09T11:17:32 IST" name="removeItemFromCart_shouldDecreaseCartCount" finished-at="2025-09-09T11:17:34 IST" duration-ms="2098" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeItemFromCart_shouldDecreaseCartCount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CartTests@3270d194]" started-at="2025-09-09T10:16:29 IST" name="tearDown" finished-at="2025-09-09T10:16:30 IST" duration-ms="124" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CartTests@55182842]" started-at="2025-09-09T11:17:35 IST" name="tearDown" finished-at="2025-09-09T11:17:35 IST" duration-ms="137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.example.tests.CartTests -->
       <class name="com.example.tests.CheckoutTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.CheckoutTests@235834f2]" started-at="2025-09-09T10:16:30 IST" name="setUp" finished-at="2025-09-09T10:16:32 IST" duration-ms="2810" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.CheckoutTests@3270d194]" started-at="2025-09-09T11:17:35 IST" name="setUp" finished-at="2025-09-09T11:17:36 IST" duration-ms="1561" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkout_shouldCompleteOrder()[pri:1, instance:com.example.tests.CheckoutTests@235834f2]" started-at="2025-09-09T10:16:32 IST" name="checkout_shouldCompleteOrder" finished-at="2025-09-09T10:16:34 IST" duration-ms="1134" status="PASS">
+        <test-method signature="checkout_shouldCompleteOrder()[pri:1, instance:com.example.tests.CheckoutTests@3270d194]" started-at="2025-09-09T11:17:36 IST" name="checkout_shouldCompleteOrder" finished-at="2025-09-09T11:17:39 IST" duration-ms="2828" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkout_shouldCompleteOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CheckoutTests@235834f2]" started-at="2025-09-09T10:16:34 IST" name="tearDown" finished-at="2025-09-09T10:16:34 IST" duration-ms="303" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CheckoutTests@3270d194]" started-at="2025-09-09T11:17:39 IST" name="tearDown" finished-at="2025-09-09T11:17:39 IST" duration-ms="212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.CheckoutTests@235834f2]" started-at="2025-09-09T10:16:34 IST" name="setUp" finished-at="2025-09-09T10:16:56 IST" duration-ms="22421" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.CheckoutTests@3270d194]" started-at="2025-09-09T11:17:39 IST" name="setUp" finished-at="2025-09-09T11:17:42 IST" duration-ms="2899" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkout_missingFirstName_shouldShowError()[pri:2, instance:com.example.tests.CheckoutTests@235834f2]" started-at="2025-09-09T10:16:56 IST" name="checkout_missingFirstName_shouldShowError" finished-at="2025-09-09T10:16:57 IST" duration-ms="831" status="PASS">
+        <test-method signature="checkout_missingFirstName_shouldShowError()[pri:2, instance:com.example.tests.CheckoutTests@3270d194]" started-at="2025-09-09T11:17:42 IST" name="checkout_missingFirstName_shouldShowError" finished-at="2025-09-09T11:17:44 IST" duration-ms="1235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkout_missingFirstName_shouldShowError -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CheckoutTests@235834f2]" started-at="2025-09-09T10:16:57 IST" name="tearDown" finished-at="2025-09-09T10:16:58 IST" duration-ms="129" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CheckoutTests@3270d194]" started-at="2025-09-09T11:17:44 IST" name="tearDown" finished-at="2025-09-09T11:17:44 IST" duration-ms="145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.CheckoutTests@235834f2]" started-at="2025-09-09T10:16:58 IST" name="setUp" finished-at="2025-09-09T10:17:00 IST" duration-ms="2663" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.CheckoutTests@3270d194]" started-at="2025-09-09T11:17:44 IST" name="setUp" finished-at="2025-09-09T11:17:49 IST" duration-ms="4944" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkout_missingLastName_shouldShowError()[pri:3, instance:com.example.tests.CheckoutTests@235834f2]" started-at="2025-09-09T10:17:00 IST" name="checkout_missingLastName_shouldShowError" finished-at="2025-09-09T10:17:01 IST" duration-ms="802" status="PASS">
+        <test-method signature="checkout_missingLastName_shouldShowError()[pri:3, instance:com.example.tests.CheckoutTests@3270d194]" started-at="2025-09-09T11:17:49 IST" name="checkout_missingLastName_shouldShowError" finished-at="2025-09-09T11:17:50 IST" duration-ms="1504" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkout_missingLastName_shouldShowError -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CheckoutTests@235834f2]" started-at="2025-09-09T10:17:01 IST" name="tearDown" finished-at="2025-09-09T10:17:01 IST" duration-ms="160" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CheckoutTests@3270d194]" started-at="2025-09-09T11:17:50 IST" name="tearDown" finished-at="2025-09-09T11:17:51 IST" duration-ms="159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.CheckoutTests@235834f2]" started-at="2025-09-09T10:17:01 IST" name="setUp" finished-at="2025-09-09T10:17:24 IST" duration-ms="22410" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.CheckoutTests@3270d194]" started-at="2025-09-09T11:17:51 IST" name="setUp" finished-at="2025-09-09T11:17:53 IST" duration-ms="2853" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkout_missingPostalCode_shouldShowError()[pri:4, instance:com.example.tests.CheckoutTests@235834f2]" started-at="2025-09-09T10:17:24 IST" name="checkout_missingPostalCode_shouldShowError" finished-at="2025-09-09T10:17:24 IST" duration-ms="798" status="PASS">
+        <test-method signature="checkout_missingPostalCode_shouldShowError()[pri:4, instance:com.example.tests.CheckoutTests@3270d194]" started-at="2025-09-09T11:17:53 IST" name="checkout_missingPostalCode_shouldShowError" finished-at="2025-09-09T11:17:55 IST" duration-ms="1211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkout_missingPostalCode_shouldShowError -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CheckoutTests@235834f2]" started-at="2025-09-09T10:17:25 IST" name="tearDown" finished-at="2025-09-09T10:17:25 IST" duration-ms="101" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CheckoutTests@3270d194]" started-at="2025-09-09T11:17:55 IST" name="tearDown" finished-at="2025-09-09T11:17:55 IST" duration-ms="146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.example.tests.CheckoutTests -->
     </test> <!-- Regression -->
-    <test started-at="2025-09-09T10:17:25 IST" name="Cucumber BDD Tests" finished-at="2025-09-09T10:17:37 IST" duration-ms="11928">
+    <test started-at="2025-09-09T11:17:55 IST" name="Cucumber BDD Tests" finished-at="2025-09-09T11:18:07 IST" duration-ms="11874">
       <class name="com.example.runners.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.example.runners.TestRunner@23348b5d]" started-at="2025-09-09T10:17:25 IST" name="setUpClass" finished-at="2025-09-09T10:17:25 IST" duration-ms="524" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.example.runners.TestRunner@2df3b89c]" started-at="2025-09-09T11:17:55 IST" name="setUpClass" finished-at="2025-09-09T11:17:56 IST" duration-ms="924" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c1386b4]]>
+                <![CDATA[org.testng.TestRunner@53d9af1]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.runners.TestRunner@23348b5d]" started-at="2025-09-09T10:17:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-09T10:17:29 IST" duration-ms="3261" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.runners.TestRunner@2df3b89c]" started-at="2025-09-09T11:17:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-09T11:18:00 IST" duration-ms="3779" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -201,7 +201,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.runners.TestRunner@23348b5d]" started-at="2025-09-09T10:17:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-09T10:17:34 IST" duration-ms="4993" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.runners.TestRunner@2df3b89c]" started-at="2025-09-09T11:18:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-09T11:18:03 IST" duration-ms="3614" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -217,7 +217,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.runners.TestRunner@23348b5d]" started-at="2025-09-09T10:17:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-09T10:17:37 IST" duration-ms="3108" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.runners.TestRunner@2df3b89c]" started-at="2025-09-09T11:18:03 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-09T11:18:07 IST" duration-ms="3513" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -233,7 +233,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.example.runners.TestRunner@23348b5d]" started-at="2025-09-09T10:17:37 IST" name="tearDownClass" finished-at="2025-09-09T10:17:37 IST" duration-ms="30" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.example.runners.TestRunner@2df3b89c]" started-at="2025-09-09T11:18:07 IST" name="tearDownClass" finished-at="2025-09-09T11:18:07 IST" duration-ms="33" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
